@@ -23,7 +23,7 @@ public class SistemadeInscripcion {
     public void iniciarSesion() {
         Scanner entrada = new Scanner(System.in);
         System.out.println("**** Iniciar Sesión ****");
-        System.out.print("Ingrese su usuario: ");1
+        System.out.print("Ingrese su usuario: ");
         String usuario = entrada.nextLine();
         System.out.print("Ingrese su contraseña: ");
         String contraseña = entrada.nextLine();
@@ -32,7 +32,7 @@ public class SistemadeInscripcion {
             System.out.println("***********BIENVENIDO***********");
         } else {
             System.out.println("Usuario o contraseña incorrectos.");
-            System.exit(0);  // Salir si el login es incorrecto
+            System.exit(0);
         }
     }
 
